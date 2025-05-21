@@ -33,7 +33,7 @@ import os
 from PIL import Image
 
 # Preparation of the folder containing the images
-image_folder = 'C:\Users\theog\404-ctf\poeme\images'
+image_folder = '/Users/patriciadauphole/Desktop/IA ML Project/testSet'
 image_files = [f for f in os.listdir(image_folder) if os.path.isfile(os.path.join(image_folder, f))]
 
 # Initialize the list to store the images
